@@ -22,7 +22,7 @@
     "url": "http://github.com/mateusmaso/underscore.path"
   },
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt mochaTest"
   },
   "main": "dist/underscore.path.js"
 }
