@@ -1,18 +1,27 @@
-(function(root) {
-
-  var path = function(context, key) {
-    var paths = key.split('.');
-    var object = context[paths.shift()];
-    for (var index = 0; index < paths.length; index++) object = object[paths[index]];
-    return object;
-  };
+(function(root, factory) {
 
   if (typeof exports !== 'undefined') {
+    var _ = require('underscore');
     if (typeof module !== 'undefined' && module.exports)
-      module.exports = path;
-    exports = path;
+      module.exports = factory(_);
+    exports = factory(_);
   } else {
-    root._.path = path;
+    root._.mixin(factory(root._));
   }
 
-})(this);
+}(this, function(_) {
+
+  return {
+    path: function(context, key) {
+      var paths = key.split('.');
+      var object = context[paths.shift()];
+
+      _.each(paths, function(key) {
+        object = object[key];
+      });
+
+      return object;
+    }
+  };
+
+}));

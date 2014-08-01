@@ -1,6 +1,6 @@
 var chai = require("chai");
 var _ = require("underscore");
-_.path = require('../src/underscore.path');
+_.mixin(require('../src/underscore.path'));
 
 describe("underscore.path", function() {
   beforeEach(function() {
