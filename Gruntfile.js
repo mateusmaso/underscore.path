@@ -4,7 +4,7 @@ module.exports = function(grunt) {
     meta: {
       version: '<%= pkg.version %>',
       banner:
-        '// underscore.pathextend\n' +
+        '// underscore.path\n' +
         '// ---------------------\n' +
         '// v<%= pkg.version %>\n' +
         '//\n' +

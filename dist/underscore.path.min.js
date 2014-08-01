@@ -1,4 +1,4 @@
-// underscore.pathextend
+// underscore.path
 // ---------------------
 // v0.1.0
 //
