@@ -14,8 +14,7 @@ This library is an extension for Underscore which allows accessing nested proper
 
 ```javascript
 var object = {foo: {bar: 123}};
-
-_.path(object, "foo.bar"); // 123
+_.path(object, "foo.bar");
 ```
 
 ## License
