@@ -1,6 +1,6 @@
 // underscore.path
 // ---------------
-// v0.1.2
+// v0.1.3
 //
 // Copyright (c) 2014 Mateus Maso
 // Distributed under MIT license

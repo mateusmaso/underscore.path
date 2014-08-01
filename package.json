@@ -1,7 +1,7 @@
 {
   "name": "underscore.path",
   "description": "Underscore helper for accessing nested properties using string paths",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "mateusmaso",
   "keywords": ["underscore", "javascript", "path"],
   "devDependencies": {
