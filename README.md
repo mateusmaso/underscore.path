@@ -1,5 +1,6 @@
 underscore.path [![Build Status](https://travis-ci.org/mateusmaso/underscore.path.svg?branch=master)](https://travis-ci.org/mateusmaso/underscore.path)
 ===============
+
 This library is an extension for Underscore which allows accessing nested properties using a string path.
 
 ## Features
@@ -8,7 +9,7 @@ This library is an extension for Underscore which allows accessing nested proper
 
 ## Dependencies
 
-* underscore.js (>= 1.5)
+* underscore.js (>= 1.5.0)
 
 ## Node
 
